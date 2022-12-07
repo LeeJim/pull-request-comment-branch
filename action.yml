@@ -23,6 +23,8 @@ outputs:
     description: "The name of the pull request branch the comment belongs to."
   head_sha:
     description: "The head sha of the pull request branch the comment belongs to."
+  head_repo_name_with_owner:
+    description: "The name of the pull request repository the comment belongs to."
 # deprecated outputs
   ref:
     description: "Deprecated, use head_ref instead."
